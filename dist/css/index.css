@@ -1,0 +1,20 @@
+.header {
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  padding: 40px;
+}
+
+.username { font-size: 46px; }
+
+.avatar > img {
+  text-align: center;
+  border: 2px solid #eee;
+  border-radius: 50%;
+}
+
+.main-wrapper {
+  background-color: #fbfbfb;
+  padding: 60px 0 20px;
+}
+
+dd, dt, li { margin-bottom: 0.5rem; }
