@@ -92,7 +92,7 @@
           <li>2021/02/11: <a href="https://www.mizdra.net/entry/2021/02/11/211856" target="_blank" rel="noopener">rule ごとに高速に eslint --fix できるツールを作った - mizdra's blog</a></li>
           <li>2021/02/09: <a href="https://www.mizdra.net/entry/2021/02/09/001157" target="_blank" rel="noopener">ブラウザにおけるメモリリークを解決するために読んでおけると良い資料 - mizdra's blog</a></li>
           <li>2020/12/05: <a href="https://www.mizdra.net/entry/2020/12/05/234806" target="_blank" rel="noopener">polyfill を深堀りする - mizdra's blog</a></li>
-          <li>2020/10/28: <a href="https://www.mizdra.net/entry/2020/10/28/234533" target="_blank" rel="noopener">target=''_blank" な &lt;a&gt; タグに noopener だけでなく noreferrer も付けるべきか - mizdra's blog</a></li>
+          <li>2020/10/28: <a href="https://www.mizdra.net/entry/2020/10/28/234533" target="_blank" rel="noopener">target=''_blank" な <code>&lt;a&gt;</code> タグに noopener だけでなく noreferrer も付けるべきか - mizdra's blog</a></li>
           <li>2020/09/07: <a href="https://www.mizdra.net/entry/2020/09/07/233701" target="_blank" rel="noopener">150B で動く strictly-typed な Event Emitter を作った - mizdra's blog</a></li>
           <li>2020/08/04: <a href="https://www.mizdra.net/entry/2020/08/04/013332" target="_blank" rel="noopener">趣味で創作する時は常に何かしら新しいことに挑戦する - mizdra's blog</a></li>
           <li>2020/05/31: <a href="https://www.mizdra.net/entry/2020/05/31/192613" target="_blank" rel="noopener">画像による Layout Shift が無くなる Web がやって来る - mizdra's blog</a></li>
@@ -108,7 +108,44 @@
         <h2>Productions</h2>
         <ul>
 
-          <li><a href="https://twitter.com/mizdra/status/1208409600812310528" target="_blank" rel="noopener">今日のゆゆ式</a></li>
+          <li>2021/02: <a href="https://github.com/mizdra/eslint-interactive" target="_blank" rel="noopener">eslint-interactive</a></li>
+          <ul>
+            <li>rule ごとに <code>eslint --fix</code> などを適用できるツール</li>
+            <li>巨大なコードベースにおける ESLint の導入を支援する</li>
+            <li>リポジトリ: <a href="https://github.com/mizdra/eslint-interactive" target="_blank" rel="noopener">mizdra/eslint-interactive</a></li>
+            <li>紹介記事1: <a href="https://www.mizdra.net/entry/2021/02/11/211856" target="_blank" rel="noopener">rule ごとに高速に eslint --fix できるツールを作った - mizdra's blog</a></li>
+            <li>紹介記事2: <a href="https://www.mizdra.net/entry/2021/08/24/234641" target="_blank" rel="noopener">巨大なコードベースに対して段階的に新しい ESLint rule を導入する - mizdra's blog</a></li>
+          </ul>
+
+          <li>2020/09: <a href="https://github.com/mizdra/strictly-typed-event-target" target="_blank" rel="noopener">strictly-typed-event-target</a></li>
+          <ul>
+            <li>150B で動く strictly-typed な Event Emitter</li>
+            <li>リポジトリ: <a href="https://github.com/mizdra/strictly-typed-event-target" target="_blank" rel="noopener">mizdra/strictly-typed-event-target</a></li>
+            <li>紹介記事: <a href="https://www.mizdra.net/entry/2020/09/07/233701" target="_blank" rel="noopener">150B で動く strictly-typed な Event Emitter を作った - mizdra's blog</a></li>
+          </ul>
+
+          <li>2020/07: <a href="https://github.com/mizdra/img-layout-shift-detector" target="_blank" rel="noopener">img-layout-shift-detector</a></li>
+          <ul>
+            <li>Layout Shift を引き起こしうる <code>&lt;img&gt;</code> タグを検出するブラウザ拡張</li>
+            <li><a href="https://github.com/mizdra/eslint-plugin-layout-shift" target="_blank" rel="noopener">eslint-plugin-layout-shift</a> と違い、ブラウザでページを表示した時に動的解析を駆使し、問題のあるタグを検出するアプローチを取っている</li>
+            <li>リポジトリ: <a href="https://github.com/mizdra/img-layout-shift-detector" target="_blank" rel="noopener">mizdra/img-layout-shift-detector</a></li>
+          </ul>
+
+          <li>2020/06: <a href="https://scrapbox.io/customize/icon-suggestion" target="_blank" rel="noopener">icon-suggestion</a></li>
+          <ul>
+            <li>Scrapbox のアイコン記法を高速に挿入できる UserScript</li>
+            <li>リポジトリ: <a href="https://github.com/mizdra/scrapbox-userscript-icon-suggestion" target="_blank" rel="noopener">mizdra/scrapbox-userscript-icon-suggestion</a></li>
+            <li>紹介記事: <a href="https://www.mizdra.net/entry/2020/06/14/200119" target="_blank" rel="noopener">Scrapboxのページ内に埋め込まれているアイコンをsuggestして挿入できるUserScript作った</a></li>
+          </ul>
+
+          <li>2020/05: <a href="https://github.com/mizdra/eslint-plugin-layout-shift" target="_blank" rel="noopener">eslint-plugin-layout-shift</a></li>
+          <ul>
+            <li>Layout Shift を引き起こしうる <code>&lt;img&gt;</code> タグを検出する ESLint rule</li>
+            <li><a href="https://github.com/mizdra/img-layout-shift-detector" target="_blank" rel="noopener">img-layout-shift-detector</a> と違い、JSX を静的解析して問題のあるタグを検出するアプローチを取っている</li>
+            <li>リポジトリ: <a href="https://github.com/mizdra/eslint-plugin-layout-shift" target="_blank" rel="noopener">mizdra/eslint-plugin-layout-shift</a></li>
+          </ul>
+
+          <li>2019/12: <a href="https://twitter.com/mizdra/status/1208409600812310528" target="_blank" rel="noopener">今日のゆゆ式</a></li>
           <ul>
             <li>Google Assistantに話しかけるとオススメのゆゆ式の1コマを印刷できるIoT</li>
             <li>コマ画像をESC/POSコマンドを用いてレシートプリンタで印刷している</li>
@@ -116,48 +153,51 @@
             <li>紹介記事: <a href="https://www.mizdra.net/entry/2019/12/22/002822" target="_blank" rel="noopener">OK Google, 今日のゆゆ式 - mizdra's blog</a></li>
           </ul>
 
-          <li><a href="https://yukari-slot.mizdra.net" target="_blank" rel="noopener">ゆかりスロット</a></li>
+          <li>2018/11: <a href="https://yukari-slot.mizdra.net" target="_blank" rel="noopener">ゆかりスロット</a></li>
           <ul>
             <li>ゆゆ式の日向縁さんの誕生日をお祝いして作ったスロットゲーム</li>
             <li>アニメーションにWeb Animations APIを, 結果のシェアにOpen Graph Protocol/FaaSを使用</li>
+            <li>リポジトリ: <a href="https://github.com/mizdra/yukari-slot" target="_blank" rel="noopener">mizdra/yukari-slot</a></li>
             <li>紹介スライド: <a href="https://speakerdeck.com/mizdra/zhu-u2" target="_blank" rel="noopener">祝う2 - Speaker Deck</a></li>
           </ul>
 
-          <li><a href="https://search-tinymt-seed-for-web.netlify.com" target="_blank" rel="noopener">search-tinymt-seed-for-web</a></li>
+          <li>2018/10: <a href="https://search-tinymt-seed-for-web.netlify.com" target="_blank" rel="noopener">search-tinymt-seed-for-web</a></li>
           <ul>
             <li>C++の乱数調整ツール「search-tinymt-seed」のWeb移植版</li>
             <li>実装言語にRust/WebAssemblyを, JS-WebAssembly間のバインディングにwasm-bindgenを採用</li>
+            <li>リポジトリ: <a href="https://github.com/RNGeek/search-tinymt-seed-for-web" target="_blank" rel="noopener">RNGeek/search-tinymt-seed-for-web</a></li>
             <li>紹介記事: <a href="https://www.mizdra.net/entry/2018/10/17/080000" target="_blank" rel="noopener">WebAssemblyを使って乱数調整ツールをWebに移植した話 - mizdra's blog</a></li>
           </ul>
 
-          <li><a href="https://github.com/mizdra/now-playing-for-google-play-music" target="_blank" rel="noopener">#NowPlaying for Google Play Music</a></li>
+          <li>2018/05: <a href="https://github.com/mizdra/now-playing-for-google-play-music" target="_blank" rel="noopener">#NowPlaying for Google Play Music</a></li>
           <ul>
             <li>Google Play Music で再生中の曲を SNS に共有するブラウザ拡張機能</li>
             <li>WebExtensions API を用いて Chrome / Firefox に対応</li>
+            <li>リポジトリ: <a href="https://github.com/mizdra/now-playing-for-google-play-music" target="_blank" rel="noopener">mizdra/now-playing-for-google-play-music</a></li>
             <li>紹介記事: <a href="http://www.mizdra.net/entry/2018/05/23/013026" target="_blank" rel="noopener">Google Play Music 向けの #NowPlaying 拡張機能を公開しました - mizdra's blog</a></li>
           </ul>
           
-          <li><a href="https://wasm-dev-book.netlify.com" target="_blank" rel="noopener">WebAssembly 開発環境構築の本</a></li>
+          <li>2018/05: <a href="https://wasm-dev-book.netlify.com" target="_blank" rel="noopener">WebAssembly 開発環境構築の本</a></li>
           <ul>
             <li>Rust を用いて WebAssembly の開発環境を構築する手法を紹介する電子書籍</li>
             <li>紹介記事: <a href="http://www.mizdra.net/entry/2018/05/07/080000" target="_blank" rel="noopener">WebAssembly 開発環境構築の本を公開しました - mizdra's blog</a></li>
           </ul>
 
-          <li><a href="https://slakoth.netlify.com/" target="_blank" rel="noopener">I Found Slakoth!!!</a></li>
+          <li>2018/03: <a href="https://slakoth.netlify.com/" target="_blank" rel="noopener">I Found Slakoth!!!</a></li>
           <ul>
             <li>遅刻可視化ツール</li>
             <li>フロントエンドはReact</li>
             <li>紹介記事: <a href="http://www.mizdra.net/entry/2018/03/15/003938" target="_blank" rel="noopener">遅刻可視化ツールの紹介 - mizdra's blog</a></li>
           </ul>
 
-          <li><a href="https://emtimer.mizdra.net" target="_blank" rel="noopener">Emtimer</a></li>
+          <li>2017/12: <a href="https://emtimer.mizdra.net" target="_blank" rel="noopener">Emtimer</a></li>
           <ul>
             <li>乱数調整のためのシンプルで扱いやすい高機能なタイマー</li>
             <li>フロントエンドはVue.js</li>
             <li>紹介記事: <a href="http://www.mizdra.net/entry/2017/12/01/000009" target="_blank" rel="noopener">Emtimerの紹介 - mizdra's blog</a></li>
           </ul>
           
-          <li><a href="http://www.mizdra.net/entry/2017/10/01/200037" target="_blank" rel="noopener">Headless Chromeを用いた自動車学校の技能教習の予約が空いたら通知するスクリプト</a></li>
+          <li>2017/10: <a href="http://www.mizdra.net/entry/2017/10/01/200037" target="_blank" rel="noopener">Headless Chromeを用いた自動車学校の技能教習の予約が空いたら通知するスクリプト</a></li>
           <ul>
             <li>自動車学校の技能教習の予約が空いたら通知するスクリプト</li>
             <li>Headless Chrome の API を wrap したライブラリである <a href="https://github.com/GoogleChrome/puppeteer" target="_blank" rel="noopener">GoogleChrome/puppeteer</a> を使ってスクレイピング</li>
