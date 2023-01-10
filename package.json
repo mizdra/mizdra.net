@@ -6,9 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "run-s -c lint:*",
+    "lint:next": "next lint",
+    "lint:prettier": "prettier --check ."
   },
   "packageManager": "pnpm@7.24.2",
+  "prettier": "@mizdra/prettier-config-mizdra",
   "dependencies": {
     "@next/font": "13.1.1",
     "@types/node": "18.11.18",
