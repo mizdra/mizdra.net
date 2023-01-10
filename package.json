@@ -4,9 +4,14 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "next dev",
+    "dev": "run-p dev:*",
+    "dev:next": "next dev",
+    "dev:hcm": "pnpm gen:hcm --watch",
+    "prebuild": "pnpm gen",
     "build": "next build",
     "start": "next start",
+    "gen": "run-s -c gen:*",
+    "gen:hcm": "hcm 'app/**/*.module.css'",
     "lint": "run-s -c lint:*",
     "lint:next": "next lint",
     "lint:prettier": "prettier --check ."
