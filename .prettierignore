@@ -9,3 +9,4 @@ pnpm-lock.yaml
 
 # User
 /dist
+/config/schema.graphql
