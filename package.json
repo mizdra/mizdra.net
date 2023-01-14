@@ -13,7 +13,7 @@
     "gen": "run-s -c gen:*",
     "gen:hcm": "hcm 'app/**/*.module.css'",
     "lint": "run-s -c lint:*",
-    "lint:next": "next lint -d .",
+    "lint:next": "next lint -d . -f stylish",
     "lint:prettier": "prettier --check ."
   },
   "packageManager": "pnpm@7.24.2",
