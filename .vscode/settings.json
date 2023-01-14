@@ -2,6 +2,9 @@
   "editor.tabSize": 2,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
   "files.exclude": {
     // happy-css-modules が生成する型定義を参照したいことはまずない上に、邪魔なので隠してしまう
     "**/*.module.css.d.ts": true,
