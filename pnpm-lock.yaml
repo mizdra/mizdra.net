@@ -6,11 +6,13 @@ specifiers:
   '@mizdra/prettier-config-mizdra': ^1.0.0
   '@next/font': 13.1.1
   '@pothos/core': ^3.24.0
+  '@types/dedent': ^0.7.0
   '@types/node': 18.11.18
   '@types/react': 18.0.26
   '@types/react-dom': 18.0.10
   '@typescript-eslint/eslint-plugin': '>=2.31.0'
   '@typescript-eslint/parser': '>=2.31.0'
+  dedent: ^0.7.0
   eslint: 8.31.0
   eslint-config-next: 13.1.1
   eslint-config-prettier: '>=8.0.0'
@@ -38,6 +40,7 @@ dependencies:
   '@types/node': 18.11.18
   '@types/react': 18.0.26
   '@types/react-dom': 18.0.10
+  dedent: 0.7.0
   eslint-config-next: 13.1.1_iukboom6ndih5an6iafl45j2fe
   graphql: 16.6.0
   graphql-yoga: 3.3.0_ykzowzmb7rcumunkscnbisnkom
@@ -49,6 +52,7 @@ devDependencies:
   '@eslint/eslintrc': 1.4.1
   '@mizdra/eslint-config-mizdra': 1.2.0_c7xureoh7imezlfbl2o3ihz7ke
   '@mizdra/prettier-config-mizdra': 1.0.0_prettier@2.8.2
+  '@types/dedent': 0.7.0
   '@typescript-eslint/eslint-plugin': 5.48.1_3jon24igvnqaqexgwtxk6nkpse
   '@typescript-eslint/parser': 5.48.1_iukboom6ndih5an6iafl45j2fe
   eslint: 8.31.0
@@ -639,6 +643,10 @@ packages:
     dependencies:
       tslib: 2.4.1
     dev: false
+
+  /@types/dedent/0.7.0:
+    resolution: {integrity: sha512-EGlKlgMhnLt/cM4DbUSafFdrkeJoC9Mvnj0PUCU7tFmTjMjNRT957kXCx0wYm3JuEq4o4ZsS5vG+NlkM2DMd2A==}
+    dev: true
 
   /@types/json-schema/7.0.11:
     resolution: {integrity: sha512-wOuvG1SN4Us4rez+tylwwwCV1psiNVOkJeM3AUWUNWg/jDQY2+HE/444y5gc+jBmRqASOm2Oeh5c1axHobwRKQ==}
@@ -1345,6 +1353,10 @@ packages:
     resolution: {integrity: sha512-z2S+W9X73hAUUki+N+9Za2lBlun89zigOyGrsax+KUQ6wKW4ZoWpEYBkGhQjwAjjDCkWxhY0VKEhk8wzY7F5cA==}
     engines: {node: '>=0.10.0'}
     dev: true
+
+  /dedent/0.7.0:
+    resolution: {integrity: sha512-Q6fKUPqnAHAyhiUgFU7BUzLiv0kd8saH9al7tnu5Q/okj6dnupxyTgFIBjVzJATdfIAm9NAsvXNzjaKa+bxVyA==}
+    dev: false
 
   /deep-equal/2.2.0:
     resolution: {integrity: sha512-RdpzE0Hv4lhowpIUKKMJfeH6C1pXdtT1/it80ubgWqwI3qpuxUBpC1S4hnHg+zjnuOoDkzUtUCEEkG+XG5l3Mw==}
