@@ -1,0 +1,15 @@
+import { createYoga } from 'graphql-yoga';
+import { schema } from '../../backend/graphql/index';
+
+export default createYoga({
+  schema,
+  graphqlEndpoint: '/api/graphql',
+  graphiql:
+    process.env.NODE_ENV === 'development'
+      ? {
+          defaultQuery: `query {
+            hello(name: "mizdra")
+          }`,
+        }
+      : false,
+});
