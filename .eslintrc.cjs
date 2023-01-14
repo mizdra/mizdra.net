@@ -39,5 +39,11 @@ module.exports = {
         'import/no-unresolved': 'off',
       },
     },
+    {
+      files: ['./next.config.js', './app/**/{head,layout,page}.tsx', './pages/api/*.ts'],
+      rules: {
+        'import/no-default-export': 'off',
+      },
+    },
   ],
 };
