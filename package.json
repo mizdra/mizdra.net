@@ -14,6 +14,7 @@
     "gen:hcm": "hcm 'app/**/*.module.css'",
     "lint": "run-s -c lint:*",
     "lint:next": "next lint -d . -f stylish",
+    "lint:stylelint": "stylelint '**/*.css'",
     "lint:prettier": "prettier --check ."
   },
   "packageManager": "pnpm@7.24.2",
