@@ -19,6 +19,9 @@
   },
   "packageManager": "pnpm@7.24.2",
   "prettier": "@mizdra/prettier-config-mizdra",
+  "overrides": {
+    "stylelint-no-unused-selectors>stylelint": "^14.16.1"
+  },
   "dependencies": {
     "@next/font": "13.1.1",
     "@types/node": "18.11.18",
