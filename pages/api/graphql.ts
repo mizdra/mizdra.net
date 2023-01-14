@@ -1,3 +1,4 @@
+import dedent from 'dedent';
 import { createYoga } from 'graphql-yoga';
 import { schema } from '../../backend/graphql/index';
 
@@ -7,9 +8,10 @@ export default createYoga({
   graphiql:
     process.env.NODE_ENV === 'development'
       ? {
-          defaultQuery: `query {
-            hello(name: "mizdra")
-          }`,
+          defaultQuery: dedent`
+            query {
+              hello(name: "mizdra")
+            }`,
         }
       : false,
 });
